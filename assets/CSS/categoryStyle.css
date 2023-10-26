@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* Global Styles */
+h1 {
+  font-size: 50px;
+  line-height: 64px;
+  color: #222;
+}
+
+h2 {
+  font-size: 46px;
+  line-height: 54px;
+  color: #222;
+}
+
+h4 {
+  font-size: 20px;
+  color: #222;
+}
+
+h6 {
+  font-weight: 700;
+  font-size: 12px;
+}
+
+p {
+  font-size: 16px;
+  color: #465b52;
+  margin: 15px 0 20px 0;
+}
+
+.section-p1 {
+  padding: 40px 80px;
+}
+
+.section-m1 {
+  margin: 40px 0;
+}
+
+button.normal {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 30px;
+  color: #000;
+  background-color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: 0.2s;
+}
+button.white {
+  font-size: 13px;
+  font-weight: 600;
+  padding: 11px 18px;
+  color: #fff;
+  background-color: transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid #fff;
+  outline: none;
+  transition: 0.2s;
+}
+
+body {
+  width: 100%;
+}
+/* =================Small Banner===================== */
+#smallBanner {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+#smallBanner .bannerBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url(../image/plant2.jpg);
+  min-width: 540px;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+}
+
+#smallBanner .bannerBox2 {
+  background-image: url(../image/lovely-woman-linen-dress-straw-hat-posing-boho-style-apartment.jpg);
+}
+
+#smallBanner h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+#smallBanner h2 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+#smallBanner span {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+
+#smallBanner .bannerBox:hover {
+  box-shadow: 10px 10px 54px rgba(106, 106, 109, 0.337);
+}
+
+#smallBanner .bannerBox:hover button {
+  background: #27643c;
+  border: 1px solid #27643c;
+}
+
+/* =============== Third BANNER ====================  */
+#banner3 {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 0 80px;
+}
+
+#banner3 .bannerBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url(../image/lavander.jpg);
+  border-radius: 5px;
+  min-width: 30%;
+  height: 30vh;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#banner3 .bannerBox2 {
+  background-image: url(../image/plant3.jpg);
+}
+
+#banner3 .bannerBox3 {
+  background-image: url(../image/plant4.jpg);
+}
+
+#banner3 h2 {
+  margin-bottom: 20px;
+  background-color: #ffffff62;
+  border-radius: 4px;
+  color: #000000c8;
+  font-size: 22px;
+}
+
+#banner3 .bannerBox:hover {
+  transition: 1s;
+  transform: scale(1.1);
+}
